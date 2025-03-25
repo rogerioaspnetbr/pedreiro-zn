@@ -1,16 +1,33 @@
-# pedreiro_zn
+# Pedreiro ZN
 
-A new Flutter project.
+Um aplicativo Flutter para busca de pedreiros na Zona Norte de São Paulo.
 
-## Getting Started
+## Sobre o Projeto
 
-This project is a starting point for a Flutter application.
+Pedreiro ZN é um aplicativo que facilita a busca por profissionais de construção civil na região da Zona Norte de São Paulo. O aplicativo permite:
 
-A few resources to get you started if this is your first Flutter project:
+- Buscar pedreiros por nome, especialidade ou bairro
+- Visualizar informações detalhadas sobre cada profissional
+- Ver avaliações e número de trabalhos concluídos
+- Entrar em contato diretamente com os profissionais
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Tecnologias Utilizadas
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Flutter
+- Dart
+- Clean Architecture
+- Dependency Injection (get_it)
+
+## Instalação
+
+1. Clone o repositório
+2. Execute `flutter pub get` para instalar as dependências
+3. Execute `flutter run` para iniciar o aplicativo
+
+## Build
+
+Para gerar um APK para Android:
+
+```bash
+flutter build apk
+```
