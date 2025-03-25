@@ -1,0 +1,13 @@
+// ... existing code ...
+android {
+    // ... existing code ...
+    defaultConfig {
+        applicationId "com.example.pedreiro_zn"
+        minSdkVersion flutter.minSdkVersion
+        targetSdkVersion flutter.targetSdkVersion
+        versionCode flutterVersionCode.toInteger()
+        versionName flutterVersionName
+    }
+    // ... existing code ...
+}
+// ... existing code ...
